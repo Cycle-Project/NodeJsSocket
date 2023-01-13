@@ -1,0 +1,38 @@
+{
+    "name": "geolocation-socket",
+    "version": "1.0.0",
+    "description": "Using socket.io with NodeJs",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js",
+        "build": "node server.js",
+        "swagger-autogen": "node ./docs/swagger.js"
+    },
+    "engines": {
+        "node": ">=14"
+    },
+    "keywords": [],
+    "author": "Yahya Bekir Canevi <yahyabekircanevi2@gmail.com>",
+    "repository": "https://github.com/Cycle-Project/NodeJsSocket.git",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/core": "7.2.0",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^8.5.1",
+        "lorem-ipsum": "^2.0.8",
+        "mongoose": "^6.6.5",
+        "mongoose-unique-validator": "^3.1.0",
+        "mongoose-validator": "^2.1.0",
+        "parcel-bundler": "^1.6.1",
+        "socket.io": "^4.5.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20",
+        "swagger-autogen": "^2.22.0",
+        "swagger-ui-express": "^4.1.6"
+    }
+}
